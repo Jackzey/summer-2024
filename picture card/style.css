@@ -1,0 +1,77 @@
+.my_card {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 40px;
+    box-shadow: 1px 1px 40px 1px gray;
+    background-color: #fff
+}
+
+.image {
+    background-color: rgb(69, 116, 183);
+    height: 50%;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+.my_card .profile_img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin: 20px 100px -30px;
+    border: 5px solid #fff;
+    box-shadow: 0 0 0 6px rgb(69, 116, 183);
+}
+
+.my_card .details h1 {
+    margin-top: 40px;
+    margin-bottom: -10px;
+    font-weight: 800;
+}
+
+.my_card .details h3 {
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.my_card .details {
+    color: rgb(62, 62, 62);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.my_card .socials ul {
+    display: flex;
+    justify-content: center;
+    margin-left: -5px;
+}
+
+.my_card .socials ul li{
+    list-style-type: none;
+    padding-right: 30px;
+}
+
+.my_card .socials ul li img{
+    height: 40px;
+    cursor: pointer;
+}
+
+.my_card .buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+
+}
+.my_card .btn {
+    color: aliceblue;
+    border: 0;
+    background: rgb(69, 116, 183);
+    width: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+
+
+}
+
